@@ -1,0 +1,2 @@
+global.Ember.ComposableComponent = requireModule("ember-composable-component").ComposableComponent;
+})(window);
