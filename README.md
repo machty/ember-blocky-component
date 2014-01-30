@@ -1,10 +1,16 @@
-## Ember Composable Component
+## Ember Block-y Component
 
 Some ideas I've had about making `Ember.Component` even better.
 
 ### Motivation
 
 Read this: https://gist.github.com/machty/30dd8ea75096c79e0104
+
+I want two things:
+
+1. It should be easy to yield content from a component into a provided
+   template block.
+2. No tricky scoping rules that border on `instant_eval`
 
 I want Ruby block scoping rules for components, e.g.
 
